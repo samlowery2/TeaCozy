@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+.container {
+  display: inline-flex;
+  height: 69px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav {
+  display: inline-block;
+  float: right;
+ padding-top: 30px;
+
+}
+
+.left {
+  display: flex;
+  padding: 10px;
+
+}
+
+.left h4 {
+  height:50px;
+}
