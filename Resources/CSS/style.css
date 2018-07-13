@@ -91,6 +91,8 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
   width: 1000px;
+  align-content: center;
+  justify-content: center;
 }
 
 .teatop {
@@ -106,8 +108,8 @@ flex-direction: column;
 }
 
 .teapics {
-  display: block;
-  flex-direction: row;
+  display: flex;
+
 
 }
 
@@ -115,3 +117,21 @@ flex-direction: column;
   height: 200px;
   width: 300px;
 }
+
+.teapics div{
+  width: 300px;
+  margin: 10px;
+}
+
+.teapics h4{
+  margin: 10px;
+}
+.Blitz {
+  display:block;
+}
+
+.Rum {
+  display: block;
+}
+
+.
