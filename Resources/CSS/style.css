@@ -1,5 +1,10 @@
 body {
   background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+
+
 }
 
 .container {
@@ -10,12 +15,24 @@ body {
   border-bottom: 1px solid seashell;
   width: 100%;
   justify-content: space-between;
+  background-color: black;
 }
 
 .nav {
-  display: inline-block;
+  display: inline-flex;
   float: right;
- padding-top: 30px;
+
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+
+
+}
+
+.nav span{
+  display:flex
+  float: right;
+  padding: 10px;
 
 }
 
@@ -25,6 +42,76 @@ body {
 
 }
 
-.left h4 {
+.left img {
   height:50px;
+}
+
+.leftright {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.main {
+  display: inline-block;
+  position: relative;
+  top: 70px;
+  z-index: 0;
+  margin: auto 0;
+}
+
+.mission {
+  display:flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-position: center;
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.missiontext {
+display: flex;
+  background-color: black;
+flex-direction: column;
+  height: 100px;
+  width: 100%;
+  margin: 300px 0px 300px 0px;
+}
+
+.mission h2{
+  margin: 0 auto;
+}
+.mission h4 {
+  margin: 0 auto;
+}
+
+.teamonth {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.teatop {
+  display: flex;
+  flex-direction: column;
+}
+.teatop h2{
+  margin: 0 auto;
+}
+
+.teatop h4{
+  margin: 0 auto;
+}
+
+.teapics {
+  display: block;
+  flex-direction: row;
+
+}
+
+.teapics img{
+  height: 200px;
+  width: 300px;
 }
